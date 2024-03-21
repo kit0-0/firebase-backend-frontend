@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { LogoutButton } from './LogoutButton';
 import { useUser } from '../hooks/useUser';
-import './NavBar.css'; 
 
 export const NavBar = () => {
   const { user } = useUser();
